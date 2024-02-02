@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav1{
+    border: 2px solid red;
+    height: 50px;
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+}
+
+.logo{
+    box-sizing: content-box;
+    width: 38px;
+    height: 25px;
+    filter:brightness(10%);
+    border-right: 1px solid rgba(128, 128, 128, 0.522);
+    padding-right: 15px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    /* filter: grayscale(100%); */
+}
+
+.f_academy{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f_academy h5{
+    color: gray;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    border: 2px solid blue;
+    width: 740px;
+}
+
+.right .options{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-family: F1;
+}

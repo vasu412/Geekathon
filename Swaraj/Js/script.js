@@ -45,19 +45,42 @@ const displayResults = () => {
   resultsContainer.appendChild(table);
 };
 
-// dateRaceAllCol/
+window.onload = displayResults;
+
+// year scroller col start
 const dateCol = document.getElementById("dateRaceAllCol");
+const upButton = document.getElementById("upButton");
+const downButton = document.getElementById("downButton");
 
 const year = new Date();
-console.log(year.getFullYear());
 
 for (var i = year.getFullYear(); i >= 1950; i--) {
   const data = document.createElement("div");
+  // const data = document.createElement("a");
   data.classList.add("yearData");
-
   data.innerHTML = `${i}`;
-  dateCol.append(data);
-  console.log(data);
+  dateCol.appendChild(data);
 }
 
-window.onload = displayResults;
+let currentIndex = 0;
+
+// if (currentIndex == 0) {
+//   upButton.classList.add("");
+// }
+
+upButton.addEventListener("click", () => {
+  currentIndex = Math.max(currentIndex - 3, 0);
+  dateCol.children[currentIndex].scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+});
+
+downButton.addEventListener("click", () => {
+  currentIndex = Math.min(currentIndex + 3, dateCol.children.length - 1);
+  console.log(currentIndex);
+  dateCol.children[currentIndex].scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+});

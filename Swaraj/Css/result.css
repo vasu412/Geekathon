@@ -7,16 +7,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-#dateRaceAllCol{
-  background-color: yellow;
-  color: orangered;
-  height: 200px;
-  overflow: scroll;
-  overflow-x: hidden;
-  width: 30%;
-}
-  
   
   #resultsContainer {
     font-family: Arial, sans-serif;
@@ -69,3 +59,47 @@
   .resultName{
     cursor: pointer;
   }
+
+
+  #dateRaceAllCol{
+    /* background-color: yellow; */
+    color: orangered;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 30%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #dateRaceAllCol > a{
+    border: 3px solid green;
+  }
+  
+  #dateRaceAllCol::-webkit-scrollbar {
+    width: 0; 
+  }
+
+.dateMainDiv{
+  display: flex;
+  position: relative;
+  background-color: black;
+}
+
+button{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  /* font-weight: 900; */
+  color: var(--alternetColor);
+}
+#upButton{
+  top: 10px;
+}
+#downButton{
+  bottom: 10px;
+}
+

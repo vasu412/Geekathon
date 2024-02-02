@@ -11,14 +11,23 @@
 
 <body>
     <div>
-        <div>
+        <div class="dateMainDiv">
             <div id="dateRaceAllCol"></div>
 
-            <!-- <span id="upButton">up</span>
-            <span id="downButton">Down</span> -->
+            <div>
+                <button id="upButton"><svg class="upButton" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                    </svg></button>
 
-            <button id="upButton">Up</button>
-            <button id="downButton">Down</button>
+                <button id="downButton"><svg class="downButton" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg></button>
+            </div>
+
+
+
         </div>
 
         <div id="resultsContainer"></div>

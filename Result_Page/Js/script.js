@@ -1,4 +1,4 @@
-import Results from "./results";
+import Results from "./results.js";
 
 const displayResults = () => {
   const resultsContainer = document.getElementById("resultsContainer");
@@ -25,7 +25,7 @@ const displayResults = () => {
   `;
   table.appendChild(tableHeader);
 
-  // Create table body
+  // Created table body
   const tableBody = document.createElement("tbody");
   Results.forEach((result) => {
     const row = document.createElement("tr");
@@ -44,5 +44,20 @@ const displayResults = () => {
   table.appendChild(tableBody);
   resultsContainer.appendChild(table);
 };
+
+// dateRaceAllCol/
+const dateCol = document.getElementById("dateRaceAllCol");
+
+const year = new Date();
+console.log(year.getFullYear());
+
+for (var i = year.getFullYear(); i >= 1950; i--) {
+  const data = document.createElement("div");
+  data.classList.add("yearData");
+
+  data.innerHTML = `${i}`;
+  dateCol.append(data);
+  console.log(data);
+}
 
 window.onload = displayResults;

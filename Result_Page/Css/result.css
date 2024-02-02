@@ -5,7 +5,17 @@
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
+
+#dateRaceAllCol{
+  background-color: yellow;
+  color: orangered;
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 30%;
+}
   
   
   #resultsContainer {
@@ -19,10 +29,12 @@
     width: 100%;
     text-align: left;
   }
+
+  h1{
+    
+    background-color: green;
+  }
   
-  /* tbody > tr:nth-child(odd) {
-    background-color: var(--alternetColor);
-  } */
   
   tbody tr:nth-child(odd){
     background-color: var(--alternetColor);

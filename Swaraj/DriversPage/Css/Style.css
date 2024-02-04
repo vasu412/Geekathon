@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --carFont : #67676D;
+}
+
+#driversContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 5%;
+}
+
+.driverCard{
+    border: 2px solid black;
+    width: 100%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0 10px;
+    margin: 20px 5px 0 5px;
+    gap: 5px;
+    width: 24%;
+}
+
+.driverCard:hover{
+    scale: 1.03;
+}
+
+#driversContainer div{
+    gap: 10px;
+}
+
+.lowerDriverCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 10px;
+    position: relative;
+    height: 100%;
+}
+
+
+.lowerDriverCard img{
+    object-fit: contain;
+}
+
+.carAndNumber{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+
+.carAndNumber img{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+}
+.driverNumber{
+    height: 57px;
+    bottom: 10px;
+    width: 90px;
+    position: absolute;
+    z-index: 2;
+}
+
+.driverNumber img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.driverCar{
+    position: absolute;
+    z-index: 2;
+    width:150px;
+    color: var(--carFont);
+}
+
+
+.nameFlagCol{
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid var(--carFont);
+    justify-content: space-between;
+    padding: 0 5px;
+    margin: 0 10px 10px 10px;
+}
+
+.nameAndFlag{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.driverFlag{
+    align-items: center;
+    align-content: center;
+    height: 31px;
+    width: 46px;
+    border-radius: 5px;
+}
+
+.driverFlag img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.driverImage{
+    height: 100%;
+    width: 192px;
+}
+
+.driverImage img{
+    height: 100%;
+    width: 100%;
+}

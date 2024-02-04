@@ -64,23 +64,61 @@ for (var i = year.getFullYear(); i >= 1950; i--) {
 
 let currentIndex = 0;
 
-// if (currentIndex == 0) {
-//   upButton.classList.add("");
-// }
-
-upButton.addEventListener("click", () => {
+upButton.addEventListener("click", (event) => {
+  event.preventDefault();
   currentIndex = Math.max(currentIndex - 3, 0);
   dateCol.children[currentIndex].scrollIntoView({
     behavior: "smooth",
-    block: "start",
+    block: "nearest", // Align to the nearest edge of the scroll container
   });
 });
 
-downButton.addEventListener("click", () => {
+downButton.addEventListener("click", (event) => {
+  event.preventDefault(); // Prevent the default behavior of the button
   currentIndex = Math.min(currentIndex + 3, dateCol.children.length - 1);
-  console.log(currentIndex);
   dateCol.children[currentIndex].scrollIntoView({
     behavior: "smooth",
-    block: "start",
+    block: "nearest", // Align to the nearest edge of the scroll container
+  });
+});
+
+// select Tab for the years
+const selectYr = document.getElementById("yearsSelect");
+for (var i = year.getFullYear(); i >= 1950; i--) {
+  const data = document.createElement("option");
+  // const data = document.createElement("a");
+  data.classList.add("selectYearData");
+  data.innerHTML = `${i}`;
+  selectYr.appendChild(data);
+}
+// year scroller col end
+
+const country = document.getElementById("f1CountryContent");
+const countryUp = document.getElementById("upButtonCountry");
+const countryDown = document.getElementById("downButtonCountry");
+
+let coutryIdx = 0;
+
+countryUp.addEventListener("click", (event) => {
+  event.preventDefault();
+  coutryIdx = Math.max(coutryIdx - 4, 0);
+  console.log(country.children[coutryIdx]);
+  country.children[coutryIdx].scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
+    // block: "start", // Align to the nearest edge of the scroll container
+  });
+});
+
+countryDown.addEventListener("click", (event) => {
+  event.preventDefault(); // Prevent the default behavior of the button
+  coutryIdx = Math.min(coutryIdx + 4, country.children.length - 1);
+  console.log(country.children[coutryIdx]);
+  country.children[coutryIdx].scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
+    // block: "start",
+
+    // Align to the nearest edge of the scroll container
   });
 });

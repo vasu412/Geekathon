@@ -135,7 +135,6 @@ header{
     font-family: 'Titillium Web', sans-serif;
     color: white;
     border: none;
-    /* padding: 11px 15px; */
     height: 38px;
     border-radius: 5px;
     width: 92px;
@@ -153,7 +152,6 @@ header{
 
 .b2{
     background-color: #e10600;
-    /* border: 2px solid #e10600; */
 }
 
 .subscribe .b2:hover{
@@ -299,6 +297,7 @@ main{
     height: 160px;
     width: 310px;
     transition: all 0.4s ease;
+    overflow: hidden;
 }
 
 .img_info{
@@ -320,6 +319,7 @@ main{
     margin-top: 12px;
     padding-left: 22px;
     height: 140px;
+    transition: all 0.4s ease;
 }
 
 .img_info h5{
@@ -331,7 +331,6 @@ main{
 
 .img_info div p{
     padding-right: 10px;
-    transition: height 0.4s ease;
 }
 
 .main_right button{
@@ -344,12 +343,13 @@ main{
 }
 
 .main_right a:hover .main_img{
-    height: 152px;
+    height: 145px;
     transform: scale(1.1);
 }
 
 .main_right a:hover .img_info div{
-    height: 148px;
+    height: 155px;
+    padding-top: 10px;
     border-color: red;
 }
 
@@ -464,7 +464,6 @@ section{
 
 .calendar2_left{
     width: 53%;
-    /* border: 2px solid blue; */
 }
 
 .calendar2_right{
@@ -487,7 +486,7 @@ section{
 
 .info div{
     height: 120px;
-    transition: height 0.4s ease;
+    transition: all 0.4s ease;
 }
 
 .info{
@@ -508,16 +507,18 @@ section{
 }
 
 .info:hover img{
-    height: 150px;
+    height: 145px;
     transform: scale(1.1);
 }
 
 .info:hover div{
+    padding-top: 10px;
     height: 130px;
     border-color: red;
 }
 
 .img_info2:hover div{
+    padding-top: 0;
     height: 100px;
     transition: none;
     border-color: red;
@@ -527,8 +528,288 @@ button:hover{
     cursor: pointer;
 }
 
-@media screen and (min-width:1100px){
-    body{
-        width: 100%;
-    }
+.news{
+    margin-left: 70px;
+    font-family: 'f2';
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.news .material-icons{
+    color: #e10600;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+.line_back{
+    background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/gray3-x2.png);
+    background-size: 30px;
+    width: 100%;
+    position: absolute;
+    height: 270px;
+    left: 0;
+    top: 350vh;
+}
+
+.news_section{
+    border-top: 10px solid black;
+    margin-top: 20px;
+    margin-right: 77px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.news_div{
+    display: flex;
+    justify-content: space-between;
+}
+.info2 {
+    width: 307px;
+}
+
+.info2 img{
+    width: 307px;
+}
+
+.info2 div{
+    border: none;
+    margin-top: 0;
+    padding-top: 12px;
+    border-bottom-left-radius: 15px;
+    background-color: #fff;
+}
+
+.info2:hover div{
+    background-color: black;
+    color: white;
+    padding-top: 22px;
+}
+
+.topics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'f1';
+    font-size: 6.5px;
+    letter-spacing: 1px;
+    height: 55px;
+    color: rgba(0, 0, 0, 0.734);
+    background-color:#FAF9F6;
+}
+
+.topics div{
+    margin:0 60px;
+    border: 0.5px solid rgba(128, 128, 128, 0.395);
+    height: 20px;
+}
+
+.topics h1{
+    padding: 22.5px 2px;
+}
+
+.topics h1:hover{
+    border-bottom: 3.5px solid #e10600;
+}
+.standings{
+    height: 335px;
+    background-image: url(https://www.formula1.com/etc/designs/fom-website/images/homepage/standings/bg@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.standings1{
+    color: white;
+    font-family: 'f3';
+    font-size: 25px;
+    padding-top: 70px;
+}
+
+.players{
+    height: 110vh;
+    margin:0 210px;
+}
+
+.player_boxes{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+}
+
+.boxes{
+    width: 320px;
+    height: 250px;
+}
+
+.box2{
+    width: 350px;
+    position: relative;
+    bottom: 30px;
+}
+
+.flag{
+    height: 120px;
+    background-color: white;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom: 10px solid #3671C6;
+}
+
+.flag img{
+    height: 250px;
+    position: relative;
+    bottom: 130px;
+    left: 7px;
+}
+
+.box2 .flag{
+    height: 150px;
+}
+
+.box2 .flag img{
+    height: 290px;
+    bottom: 140px;
+    left: -15px;
+}
+
+.name{
+    height: 100px;
+    background-color: #38383f;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding: 25px ;
+}
+
+.boxes h6{
+    font-family: 'f1';
+    color: white;
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.boxes h6 img{
+    height: 15px;
+}
+
+.boxes h2{
+    font-family: 'f2';
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.player_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.player_info_left{
+    display: flex;
+    width: 28.5%;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.border{
+    width: 4px;
+    background-color:#3671C6;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.car{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    color: #67676d;
+}
+
+.p1{
+    font-family: 'f1';
+    font-size: 14px;
+}
+
+.number,.p2{
+    font-family: 'f2';
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.player_info_right{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    margin-right: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 7px;
+}
+
+.player_info_right div span{
+    background-color: #ededed;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+
+.player_info_right .material-icons{
+    color: #e10600;
+    font-size: 24px;
+    position: relative;
+    top: 6px;
+} 
+
+.lines{
+    position: relative;
+    bottom: 60px;
+}
+
+.player_info:hover{
+    background-color: #38383f;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.player_info:hover .player_info_right{
+    color: #38383f;
+}
+
+.player_info:hover .player_info_right .material-icons{
+    color: #fff;
+}
+
+.lines button{
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    background-color:#e10600;
+    border: none;
+    height: 38px;
+    border-radius: 5px;
+    width: 190px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.lines button:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid #e10600;
+    transition: all 0.5s ease;
+}
+
+.lines button:hover .i{
+    color: #e10600;
 }

@@ -1181,7 +1181,6 @@ footer {
     position: relative;
     width: fit-content;
     display: inline-block; 
-    /* transition: all 1s ease; */
 }
 
 .latest{
@@ -1197,7 +1196,7 @@ footer {
     border-bottom: 1px solid #e10600;
     top: 68px;
     padding: 0 90px;
-    opacity: 0;
+    display: none;
     transition: all 0.7s ease;
 }
 
@@ -1317,7 +1316,7 @@ footer {
 }
 
 .lt:hover .latest{
-    opacity: 1;
+    display: block;
     transition: all 0.7s ease;
 }
 

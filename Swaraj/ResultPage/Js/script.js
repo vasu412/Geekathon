@@ -4,10 +4,6 @@ const displayResults = () => {
   const resultsContainer = document.getElementById("resultsContainer");
   resultsContainer.innerHTML = "";
 
-  const heading = document.createElement("h1");
-  heading.innerHTML = "2023 RACE RESULTS";
-  resultsContainer.append(heading);
-
   const table = document.createElement("table");
   table.classList.add("resultsTable");
 
@@ -15,12 +11,12 @@ const displayResults = () => {
   const tableHeader = document.createElement("thead");
   tableHeader.innerHTML = `
     <tr>
-      <th>Grand Prix</th>
-      <th>Date</th>
-      <th>Winner</th>
-      <th>Car</th>
-      <th>Laps</th>
-      <th>Time</th>
+      <th class="resultName">Grand Prix</th>
+      <th class="resultDate">Date</th>
+      <th class="resultWinner">Winner</th>
+      <th class="resultCar">Car</th>
+      <th class="resultLaps">Laps</th>
+      <th class="resultTime">Time</th>
     </tr>
   `;
   table.appendChild(tableHeader);
@@ -106,7 +102,6 @@ countryUp.addEventListener("click", (event) => {
   country.children[coutryIdx].scrollIntoView({
     behavior: "smooth",
     block: "nearest",
-    // block: "start", // Align to the nearest edge of the scroll container
   });
 });
 
@@ -117,8 +112,5 @@ countryDown.addEventListener("click", (event) => {
   country.children[coutryIdx].scrollIntoView({
     behavior: "smooth",
     block: "nearest",
-    // block: "start",
-
-    // Align to the nearest edge of the scroll container
   });
 });

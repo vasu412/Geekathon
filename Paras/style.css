@@ -16,7 +16,7 @@ body{
     width: 100vw;
 }
 #f1-unlockimage{
-    background-image: url(f1-unlockred.avif);
+    background-image: url(  f1-unlockred.avif);
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,15 +38,24 @@ body{
     text-transform: uppercase;
     
 }
-.f1-image-content input{
-    padding: 1%;
+.f1-image-content .watchnow-btn{
+    
     box-shadow: 0 0 0 1px #d0d0d2;
     background: 0 0;
     color: #d0d0d2;
-    margin-top: 2%;
     border-radius: 5px;
+    cursor: pointer;
     padding: 12px 35px 12px 15px;
+   
     
+}
+#watchnow-div{
+    margin-top: 4%;
+    
+}
+.watchnow-div:hover{
+    border-radius: 10px;
+    color: #d0d0d2;
 }
 #btn:hover{
     background-color: #e10600;

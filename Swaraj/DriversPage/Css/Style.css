@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: .2px;
 }
 
 :root{
     --carFont : #67676D;
+    --backGround: #F9F9F9;
+    --hBorder: #15151E;
 }
 
 #driversContainer{
@@ -30,6 +33,7 @@
 
 .driverCard:hover{
     scale: 1.03;
+    cursor:  pointer;
 }
 
 #driversContainer div{
@@ -86,7 +90,6 @@
     color: var(--carFont);
 }
 
-
 .nameFlagCol{
     display: flex;
     align-items:center;
@@ -125,3 +128,31 @@
     height: 100%;
     width: 100%;
 }
+
+h1{
+    margin: 2% 6%;
+    font-size: 4rem;
+    border-radius: 0 20px;
+    border: 10px solid black;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+@media screen and (max-width: 1360px) {
+    .driverCard{
+        width: 32%;
+    }
+  }
+
+@media screen and (max-width: 1020px) {
+    .driverCard{
+        width: 45%;
+    }
+  }
+
+@media screen and (max-width: 770px) {
+    .driverCard{
+        width: 100%;
+    }
+  }

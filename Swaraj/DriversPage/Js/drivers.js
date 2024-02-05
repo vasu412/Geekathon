@@ -176,40 +176,48 @@ const Drivers = [
     border: "#5E8FAA",
   },
   {
-    name: "",
-    club: "",
-    flag: "",
-    car: "",
-    number: "",
-    image: "",
-    border: "",
+    name: "VALTTERI",
+    club: "BOTTAS",
+    flag: "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Finland.jpg.transform/2col/image.jpg",
+    car: "Kick Sauber",
+    number:
+      "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/VALBOT01.png.transform/2col/image.png",
+    image:
+      "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col/image.png",
+    border: "#00E701",
   },
   {
-    name: "",
-    club: "",
-    flag: "",
-    car: "",
-    number: "",
-    image: "",
-    border: "",
+    name: "ZHOU",
+    club: "GUANYA",
+    flag: "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/China.jpg.transform/2col/image.jpg",
+    car: "Kick Sauber",
+    number:
+      "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GUAZHO01.png.transform/2col/image.png",
+    image:
+      "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GUAZHO01_Guanyu_Zhou/guazho01.png.transform/2col/image.png",
+    border: "#00E701",
   },
   {
-    name: "",
-    club: "",
-    flag: "",
-    car: "",
-    number: "",
-    image: "",
-    border: "",
+    name: "KEVIN",
+    club: "MAGNUSSEN",
+    flag: "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Denmark.jpg.transform/2col/image.jpg",
+    car: "Hass F1 Team",
+    number:
+      "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/KEVMAG01.png.transform/2col/image.png",
+    image:
+      "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/K/KEVMAG01_Kevin_Magnussen/kevmag01.png.transform/2col/image.png",
+    border: "#B6BABD",
   },
   {
-    name: "",
-    club: "",
-    flag: "",
-    car: "",
-    number: "",
-    image: "",
-    border: "",
+    name: "NICO",
+    club: "HULKENBERG",
+    flag: "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Germany.jpg.transform/2col/image.jpg",
+    car: "Hass F1 Team",
+    number:
+      "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/NICHUL01.png.transform/2col/image.png",
+    image:
+      "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png.transform/2col/image.png",
+    border: "#B6BABD",
   },
 ];
 

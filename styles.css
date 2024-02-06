@@ -1256,6 +1256,8 @@ button:hover{
     border-bottom-right-radius: 5px;
 }
 
+     /* footer  */
+
 footer {
     background-color: #15151e;
     height: 125vh;
@@ -1470,3 +1472,6 @@ footer {
 .bottom_links2 h1:hover{
     border-bottom: 2px solid #e10600;
 }
+
+
+     /* footer  */

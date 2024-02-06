@@ -8,146 +8,23 @@
     height: 90vh;
     background-color: rgb(13, 13, 28);
 }
-#home-page h1{
-    color: white;
-}
-.video{
-    border: 3px solid rgb(251, 9, 199);
+.video-heading{
     width: 85%;
-    height: 90%;
     margin: auto;
-    display: flex;
+    padding-top: 5%;
+    color: white;
 }
-.multisee{
-    width: 73%;
-    height: 100%;
-    border: 8px solid #e10600;
-    display: flex;
+#outer-video-container{
+    width: 85%;
+    height: 480px;
+    border: 3px solid rgb(39, 186, 93);
+    margin: auto;
+    padding: 1%;
+}
+.mustsee-heading{
+    color: white;
     
-    
-}
-.features{
-    width: 30%;
-    border: 5px solid green;
-    height: 100%;
-}
-.mustsee-part1{
-    width: 60%;
-    height: 80%;
-    border: 2px solid white;
-    margin-top: 4%;
-   
-    
-}
-.mustsee-part2{
-    width: 40%;
-    height: 80%;
-    border:2px solid gold;
-    margin-top: 4%;
-    border: 2px solid white;
-    overflow: hidden;
-    padding: 15px;
-}
-.mustsee-part2 img{
-    width:100%;
-    height:100%;    
-    height: auto;
 
-}
-#play-btn{
-    background-color: #e10600;
-    padding: 15px;
-    color: white;
-    position: relative;
-    left: 0%;
-    top: -11.6%;
-    z-index: 1;
-    border-top-right-radius: 10px;
-}
-.mustsee-part2 .mustsee-part2-1 #play-btn{
-    background-color: #e10600;
-    padding: 15px;
-    color: white;
-    position: relative;
-    left: 0%;
-    top: -22.6%;
-    z-index: 2;
-}
-.mustsee-part2-2,a{
-    color: white;
-}
-.mustsee-container{
-    color:white;
-    margin-left: 4%;
-    background-color:#e10600;
-    height: 60px;
-    width: 90%;
-}
-.mustsee2-container{
-    color:white;
-    margin-left: 4%;
-    margin-top: -5%;
-    margin-bottom: 12%;
-    background-color:#e10600;
-    height: 60px;
-    width: 90%;
-}
-#mustsee-part2-2 a{
-    margin-right: 5%;
-    padding: 5px;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    
-}
-.features{
-    padding: 10px;
-}
-.features-container-1{
-    border: 2px solid slategray;
-    width: 95%;
-    height: 50%;
-}
-.video-contain{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-.f-content{
-
-    width: 100%;
-    border: 1px solid #e10600;
-    height: 20%;
-    color: white;
-    
-}
-.features-container-1:hover{
-    .f-content {
-        margin-top: -5%;
-        background-color: rgb(13, 13, 28);
-        position: relative;
-        transition: 0.7s;
-    }
-}
-.features-container-2{
-    width: 95%;
-    height: 30%;
-    border: 2px solid slategray;
-
-}
-#play-btn-3{
-    background-color: #e10600;
-    padding: 15px;
-    color: white;
-    position: relative;
-    left: 0%;
-    z-index: 1;
-    border-top-right-radius: 10px;
-    top: -19%;
-    
-}
-.features-container-1 a{
-    color: white;
 }
 #highlights-heading{
     width: 85%;
@@ -214,7 +91,7 @@
     width: 100%;
     height: 75%;
     position: relative;
-    background-color: #15151e;
+    background-color: #1b1b5e;
 }
 .image-container img{
     width: 100%;
@@ -287,7 +164,7 @@
 }
 .filter-border{
     width: 92%;
-    height: 200px;
+    height: 4em;
     /* border: 11px solid #e10600;
     border-left: white;
     border-bottom:  white;
@@ -306,4 +183,61 @@
 }
 .filter-btn i{
     color: #e10600;
+}
+#latest-video-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,1fr);
+
+    gap: 25px;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black;     */
+    background-color: #f7f4f1;
+    padding: 1.5% 7.5%;
+}
+.video-row{
+    width: 100%;
+    height: 250px;
+    /* border: 2px solid yellow; */
+    /* background-color: aqua; */
+
+}
+.video-row:hover{
+    
+    
+    .content-container{
+        background-color: #15151e;
+        transform: scaleY(1.3);
+        transition: 0.3s;
+
+    }
+    .icon{
+        background-color: #15151e;
+        bottom:3.5%;
+        transition: 0.3s;
+        
+    }  
+    
+    .content-container p{
+        color: white;
+        font-size:15px;
+        margin-top: 2%;
+    
+    }
+    .video-row .content-container >span{
+        padding-top: 2%;
+
+    }
+    .image-container{
+        height: 75%;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    .image-container img{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    
 }

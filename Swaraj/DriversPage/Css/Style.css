@@ -5,10 +5,6 @@
     letter-spacing: .2px;
 }
 
-body{
-    /* margin: 2% 6%; */
-}
-
 :root{
     --carFont : #67676D;
     --backGround: #F9F9F9;
@@ -93,6 +89,8 @@ body{
     z-index: 2;
     width:150px;
     color: var(--carFont);
+    font-family: 'f1';
+    font-size: 14px;
 }
 
 .nameFlagCol{
@@ -141,6 +139,8 @@ h1{
     border-bottom: none;
     border-left: none;
     margin: 2% 6%;
+    font-family: 'f2';
+
 }
 
 .texts{
@@ -151,8 +151,25 @@ h1{
 .texts p{
     padding: 3% 0;
     max-width: 600px;
+    font-family: 'f1';
+    font-size: 12px;
+    line-height: 1.3rem;
+    word-spacing: 3px;
 }
 
+.clubText{
+    font-family: 'f2';
+}
+
+
+
+.driverName{
+    font-family: 'f1';
+    /* font-weight: 100; */
+    font-size: 13px;
+}
+
+/* back image */
 .shops{
     display: flex;
     justify-content: space-between;
@@ -225,19 +242,7 @@ h1{
     border-bottom-left-radius: 5px;
 }
 
-/* ._img2{
-    background-image: url("../Assets/Backgroung.avif");
-    background-size: cover;
-} */
 
-a{
-    display: flex;
-    /* width: 50%; */
-    border: 2px solid red;
-    background-image: url("../Assets/Backgroung.avif");
-    background-size: cover;
-    justify-content: space-around;
-}
 
 .imageDiv img{
     height: 100px;

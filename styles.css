@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x:hidden;
+}
+
 @font-face {
     font-family: 'f1';
     src: url(./fonts/Formula1-Regular_web_0.ttf);
@@ -33,7 +37,7 @@ header{
     align-items: center;
     justify-content: center;
     background-color: white;
-    width: 100%;
+    width: 100vw;
 }
 
 .left{
@@ -172,7 +176,7 @@ header{
     background-color: #e10600;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .nav2 .content{
@@ -1488,7 +1492,7 @@ footer {
 
  /* footer */
 
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
     body{
         margin: 0;
     }
@@ -1506,19 +1510,18 @@ footer {
     .content img{
         margin-left: 400px;
     }
-}
+} */
 
 
 @media screen and ((min-width:1450px)){
-    /* body{
-        margin-left: auto;
-        margin-right: auto;
-    } */
+    body{
+    }
 
     nav{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .nav1{
@@ -1528,7 +1531,7 @@ footer {
         margin-left: 20px;
     }
 
-    main{
+    .main{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1551,24 +1554,6 @@ footer {
 
     .calendar2_fieldset{
         width: 1270px;
-    }
-
-    /* .more_news_div{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-    } */
-
-    .news{
-        width: 1300px;
-        margin-left:  520px;
-    }
-
-    .news_div{
-        width: 1300px;
-        justify-content: space-between;
-        align-items: center;
-        margin-left:60px;
     }
 
     .pg{
@@ -1627,7 +1612,23 @@ footer {
     }
 }
 
-@media only screen and (min-device-width:1030px) and (max-device-width:1350px){
+@media screen and (min-device-width:1360px) and (max-device-width:1450px){
+    /* .calender{
+        width: 1260px;
+    } */
+    /* .car_img{
+        width:680px ;
+    } */
+    .img_info{
+        width: 280px;
+    }
+}
+
+@media only screen and (min-device-width:1030px) and (max-device-width:1360px){
+    *:not(main){
+        overflow-x: hidden;
+    }
+
     .content2_div span{
         font-size: 12px;
     }
@@ -1642,22 +1643,121 @@ footer {
         align-items: center;
     }
 
-    main{
-        padding:0 120px;
-        margin-left: 0;
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
 
     .main_left{
         width: 473px;
     }
 
-    .main_right .img_info{
-        width: 232.5px;
+    .main_right{
+        width: 480px;
+        justify-content: flex-start;
+    }
+
+     .img_info{
+        width: 220px;
     }
 
     section{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .calender{
+        width: 966px;
+    }
+
+    .coloring{
+        background: linear-gradient(to right ,#501d83 50%,transparent);
+    }
+
+    .car_img{
+        width: 473px;
+        left: 470px;
+    }
+
+    .calendar2_fieldset{
+        width: 966px;
+    }
+
+    .calendar2_left{
+        width: 478px;
+    }
+
+    .pg{
+        height: 60vh;
+    }
+
+    .players{
+        display:flex ;
+        flex-direction:column ;
+        /* width: 946px; */
+    }
+
+    .player_boxes{
+        /* width: 1024px; */
+        bottom:340px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .boxes{
+        width: 277px;
+        margin-right: 15px;
+    }
+
+    .flag img{
+        left: -35px;
+    }
+
+    .box2 .flag img{
+        left: -75px;
+    }
+
+    .lines{
+        display: flex;
+        flex-direction: column;
+        bottom: 340px;
+    }
+
+    .lines a{
+        width: 1024px;
+    }
+
+    .line_back{
+        top: 2900px;
+        z-index: -1;
+    }
+
+    footer{
+        height: 75vh;
+    }
+
+    .footer{
+        width: 1300px;
+        margin: auto;
+    }
+
+    .dp{
+        display: flex;
+        align-items: center;
+    }
+
+    .pages{
+        justify-content: center;
+    }
+
+    .Download{
+        margin-right: 680px;
+    }
+
+    .shops{
+        margin-left: 0;
     }
 }

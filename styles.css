@@ -27,6 +27,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 9999;
+    overflow: hidden;
     /* width: 100%; */
 }
 
@@ -903,24 +904,24 @@ button:hover{
     position: absolute;
     height: 270px;
     left: 0;
-    top: 354vh;
+    top: 357vh;
     z-index: -1;
 }
 
 .news_section{
-    border-top: 10px solid black;
-    margin-top: 20px;
     margin-right: 77px;
-    padding: 20px 0;
     margin-bottom: 20px;
     z-index: 999;
     /* position: relative; */
 }
 
 .news_div{
+    border-top: 10px solid black;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 .info2 {
     width: 307px;
@@ -960,6 +961,7 @@ button:hover{
     color: rgba(0, 0, 0, 0.734);
     background-color:#FAF9F6;
     text-align: center;
+    overflow: hidden;
 }
 
 .topics .div{
@@ -1278,6 +1280,7 @@ button:hover{
 footer {
     background-color: #15151e;
     height: 125vh;
+    overflow: hidden;
 }
 
 .footer{
@@ -1514,8 +1517,6 @@ footer {
 
 
 @media screen and ((min-width:1450px)){
-    body{
-    }
 
     nav{
         display: flex;
@@ -1542,6 +1543,20 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
+    /* .news_section{
+        width: 1450px;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .news_div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } */
 
     .calender {
         width: 1300px;
@@ -1610,67 +1625,106 @@ footer {
     .shops{
         margin-left: 0;
     }
+
+    .more_news_div{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (min-device-width:1360px) and (max-device-width:1450px){
-    /* .calender{
-        width: 1260px;
-    } */
-    /* .car_img{
-        width:680px ;
-    } */
+    .pg{
+        height: 60vh;
+    }
+
+    footer{
+        height: 75vh;
+    }
+
     .img_info{
-        width: 280px;
+        width: 290px;
     }
 }
 
-@media only screen and (min-device-width:1030px) and (max-device-width:1360px){
-    *:not(main){
-        overflow-x: hidden;
+@media only screen and (min-device-width:1025px) and (max-device-width:1360px){
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav1{
+        width: 100%;
+        /* justify-content: flex-start; */
+        overflow: hidden;
+    }
+
+    .nav1 .left{
+        width: 300px;
+        margin-right: 40px;
+        justify-content: center;
+    }
+
+    .nav1 .right{
+        width: 600px;
+    }
+
+    .nav2{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .content2{
+        width: 750px;
     }
 
     .content2_div span{
-        font-size: 12px;
+        font-size: 11px;
+    }
+
+    .content2_div{
+        padding: 25px 0;
     }
 
     .f_academy{
         margin-left: 30px;
     }
 
-    .nav1{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
     .main{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-content: center;
         overflow: hidden;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .main_left{
-        width: 473px;
+        width: 463px;
     }
 
     .main_right{
-        width: 480px;
-        justify-content: flex-start;
+        width: 463px;
+        /* justify-content: flex-start; */
     }
 
-     .img_info{
-        width: 220px;
+    .img_info{
+        width: 210px;
     }
 
     section{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .calender{
         width: 966px;
+        margin: 0 24px;
     }
 
     .coloring{
@@ -1697,11 +1751,12 @@ footer {
     .players{
         display:flex ;
         flex-direction:column ;
+        justify-content: center;
+        align-items: center;
         /* width: 946px; */
     }
 
     .player_boxes{
-        /* width: 1024px; */
         bottom:340px;
         display: flex;
         justify-content: space-between;
@@ -1736,11 +1791,13 @@ footer {
     }
 
     footer{
-        height: 75vh;
+        height: 77vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer{
-        width: 1300px;
+        width: 1025px;
         margin: auto;
     }
 
@@ -1750,14 +1807,68 @@ footer {
     }
 
     .pages{
-        justify-content: center;
-    }
-
-    .Download{
-        margin-right: 680px;
+        justify-content: space-between;
     }
 
     .shops{
-        margin-left: 0;
+        width: 1025px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    .shop{
+        width: 289px;
+    }
+
+
+    .more_news_div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .news_section{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-left: 70px; */
+    }
+
+    .news_div{
+        width: 1024px;
+        justify-content: space-around;
+    }
+
+    .lines a{
+        width: 906px;
+    }
+
+    .player_info_left{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-device-width:769px) and (max-device-width:1023px){
+    .nav1{
+        display: none;
+    }
+
+    .nav2 .content2{
+        display: none;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .main_left{
+        position: relative;
+        top: 15px;
+    }
+
+    .calender{
+        width: 748px;
+    }
+
 }

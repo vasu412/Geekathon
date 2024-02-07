@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x:hidden;
-}
 
 @font-face {
     font-family: 'f1';
@@ -537,7 +534,7 @@ main{
 
 .left_space{
     border-right: 10px solid #e10600;
-    height: 200px;
+    height: 380px;
     padding-right: 21px;
     padding-top: 20px;
 }
@@ -679,7 +676,7 @@ section{
 
 .calender{
     height: 370px;
-    max-width: 94.4%;
+    width: 94.4%;
     border: 10px solid #501d83;
     border-left: 0;
     border-top-right-radius:23px;
@@ -1627,22 +1624,7 @@ footer {
     }
 
     .more_news_div{
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (min-device-width:1360px) and (max-device-width:1450px){
-    .pg{
-        height: 60vh;
-    }
-
-    footer{
-        height: 75vh;
-    }
-
-    .img_info{
-        width: 290px;
+        margin-left: 600px;
     }
 }
 
@@ -1849,7 +1831,132 @@ footer {
     }
 }
 
-@media only screen and (min-device-width:769px) and (max-device-width:1023px){
+@media only screen and (max-device-width:1024px){
+    footer{
+        height: 77vh;
+    }
+
+    .shop{
+        width: 309px;
+    }
+
+    .shops{
+        margin-left: 30px;
+    }
+
+    .pg{
+        height: 50vh;
+    }
+
+    .lines{
+        width: 906px;
+    }
+
+    .lines a{
+        width: 906px;
+    }
+
+    .players{
+        width: 906px;
+        margin: 0;
+        margin-left: 70px;
+    }
+
+    .boxes{
+        width: 277px;
+    }
+
+    .flag img{
+        width: 274px;
+        left: -10px;
+    }
+
+    .box2 .flag img{
+        width: 313px;
+        left: -35px;
+    }
+
+    .news_section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 966px;
+        height: 793px;
+    }
+
+    .news_div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news_div .img_info{
+        width: 473px;
+    }
+
+    .news_div .img_info img{
+        width: 473px;
+        height: 266px;
+    }
+
+    .calender{
+        height: 306px;
+        width: 966px;
+    }
+
+    .car_img{
+        width: 450px;
+        left: 495px;
+        height: 260px;
+    }
+
+    .coloring{
+        background: linear-gradient(to right ,#501d83 53%,transparent);
+    }
+
+    .race_calender{
+        margin-top: 40px;
+        justify-content: space-between;
+        height: 210px;
+    }
+
+    .calendar2_fieldset{
+        width: 966px;
+    }
+
+    .calendar2_left{
+        width: 458px;
+    }
+
+    .left_div1{
+        height: 257px;
+    }
+
+    .calendar2_right .img_info{
+        width: 218px;
+    }
+
+    .main_right .img_info{
+        width: 218px;
+    }
+
+    .content2 .content2_div span{
+        font-size: 12px;
+    }
+
+    .content img{
+        margin-left: 20px;
+    }
+
+    .nav1{
+        padding: 0;
+    }
+
+    .left{
+        margin-right: 0;
+    }
+    
+} 
+
+@media only screen and (max-device-width:769px){
     .nav1{
         display: none;
     }

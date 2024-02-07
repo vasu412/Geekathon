@@ -1,41 +1,43 @@
-F1 Drivers 2024
-Check out this season's official F1 line-up. Full breakdown of drivers, points and current standings. Follow your favourite F1 drivers on and off the track.
+# F1 Drivers 2024
 
-Demo
-https://vasu412.github.io/Geekathon/
+Welcome to the F1 Drivers 2024 project! This project provides an overview of the official F1 line-up for the 2024 season, including a breakdown of drivers, points, and current standings. You can also follow your favorite F1 drivers both on and off the track.
 
-Features
-List of all F1 drivers for the 2024 season
-Up-to-date driver standings
-Follow your favorite drivers and view their profiles their clubs country etc
-Responsive design for optimal viewing on desktop and mobile
-Installation
-To run this project locally, you will need to:
+## Demo
 
-Clone this repository to your local machine
-bash
-Download
-Copy code
-git clone https://github.com/vasu412/Geekathon.git
-Navigate to the project directory
-bash
-Download
-Copy code
-cd Swaraj -> DriversPage -> Index.html
-Open the index.html file in your web browser
-Usage
-Use the navigation bar at the top of the page to view the list of drivers and their standings. Click on a driver's name to view their social media profiles and follow them.
+Check out the live demo [here](https://vasu412.github.io/Geekathon/).
 
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Features
 
-License
+- List of all F1 drivers for the 2024 season
+- Up-to-date driver standings
+- Follow your favorite drivers and view their profiles, clubs, country, etc.
+- Responsive design for optimal viewing on desktop and mobile devices
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/vasu412/Geekathon.git
+
+cd Geekathon/Swaraj/DriversPage
+
+
+##Usage
+- Use the navigation bar at the top of the page to:
+
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
-Your Name - your.email@example.com
+###Contact
+For any inquiries or feedback, feel free to contact us:
 
-Project status
+Your Name - swrjnnd@gmail.com
+Project Status
 This project is currently under development. Check back soon for updates!
 
 Acknowledgments

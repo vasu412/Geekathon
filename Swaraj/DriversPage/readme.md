@@ -13,6 +13,10 @@ Check out the live demo [here](https://vasu412.github.io/Geekathon/).
 - Follow your favorite drivers and view their profiles, clubs, country, etc.
 - Responsive design for optimal viewing on desktop and mobile devices
 
+## Screenshots
+
+![Homepage Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/1.png)
+
 ## Installation
 
 To run this project locally, follow these steps:

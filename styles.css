@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x:hidden;
-}
 
 @font-face {
     font-family: 'f1';
@@ -27,8 +24,6 @@ header{
     position: sticky;
     top: 0;
     z-index: 9999;
-    overflow: hidden;
-    /* width: 100%; */
 }
 
 .nav1{
@@ -537,7 +532,7 @@ main{
 
 .left_space{
     border-right: 10px solid #e10600;
-    height: 200px;
+    height: 380px;
     padding-right: 21px;
     padding-top: 20px;
 }
@@ -679,7 +674,7 @@ section{
 
 .calender{
     height: 370px;
-    max-width: 94.4%;
+    width: 94.4%;
     border: 10px solid #501d83;
     border-left: 0;
     border-top-right-radius:23px;
@@ -1275,11 +1270,92 @@ button:hover{
     border-bottom-right-radius: 5px;
 }
 
+.field{
+    width: 100%;
+    height: 300px;
+    background-color: #38383f;
+    margin-bottom: 3px;
+    padding-top: 46px;
+}
+
+.explore_fieldset{
+    width: 88.4%;
+    border: 10px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    border-top-right-radius:23px;
+    height: 220px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore_fieldset legend{
+    font-family: 'f2';
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-right: 18px;
+    color: #fff;
+}
+
+.explore{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.explore div{
+    width: 300px;
+    height: 170px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+}
+
+.explore img{
+    width: 300px;
+    height: 170px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    filter: brightness(50%);
+    transition: all 0.5s ease;
+}
+
+.explore h1{
+    position: relative;
+    bottom: 110px;
+    color: #fff;
+    font-family: 'f2';
+    font-size: 24px;
+    letter-spacing: 1px;
+    left: 44px;
+}
+
+.explore div:hover img{
+    transform: scale(1.1);
+    filter: brightness(35%);
+}
+
+/* .explore div:hover .inliness{
+    background: linear-gradient(0deg , #e10600 ,#e10600);
+} */
+
+.inliness{
+    width: 300px;
+    height: 12px;
+    position: relative;
+    bottom: 45px;
+    background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/white-x2.png);
+    background-repeat: repeat;
+    background-size: 12px;
+}
+
      /* footer  */
 
 footer {
     background-color: #15151e;
-    height: 125vh;
+    height: 165vh;
     overflow: hidden;
 }
 
@@ -1627,22 +1703,7 @@ footer {
     }
 
     .more_news_div{
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (min-device-width:1360px) and (max-device-width:1450px){
-    .pg{
-        height: 60vh;
-    }
-
-    footer{
-        height: 75vh;
-    }
-
-    .img_info{
-        width: 290px;
+        margin-left: 600px;
     }
 }
 
@@ -1849,7 +1910,132 @@ footer {
     }
 }
 
-@media only screen and (min-device-width:769px) and (max-device-width:1023px){
+@media only screen and (max-device-width:1024px){
+    footer{
+        height: 77vh;
+    }
+
+    .shop{
+        width: 309px;
+    }
+
+    .shops{
+        margin-left: 30px;
+    }
+
+    .pg{
+        height: 50vh;
+    }
+
+    .lines{
+        width: 906px;
+    }
+
+    .lines a{
+        width: 906px;
+    }
+
+    .players{
+        width: 906px;
+        margin: 0;
+        margin-left: 70px;
+    }
+
+    .boxes{
+        width: 277px;
+    }
+
+    .flag img{
+        width: 274px;
+        left: -10px;
+    }
+
+    .box2 .flag img{
+        width: 313px;
+        left: -35px;
+    }
+
+    .news_section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 966px;
+        height: 793px;
+    }
+
+    .news_div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news_div .img_info{
+        width: 473px;
+    }
+
+    .news_div .img_info img{
+        width: 473px;
+        height: 266px;
+    }
+
+    .calender{
+        height: 306px;
+        width: 966px;
+    }
+
+    .car_img{
+        width: 450px;
+        left: 495px;
+        height: 260px;
+    }
+
+    .coloring{
+        background: linear-gradient(to right ,#501d83 53%,transparent);
+    }
+
+    .race_calender{
+        margin-top: 40px;
+        justify-content: space-between;
+        height: 210px;
+    }
+
+    .calendar2_fieldset{
+        width: 966px;
+    }
+
+    .calendar2_left{
+        width: 458px;
+    }
+
+    .left_div1{
+        height: 257px;
+    }
+
+    .calendar2_right .img_info{
+        width: 218px;
+    }
+
+    .main_right .img_info{
+        width: 218px;
+    }
+
+    .content2 .content2_div span{
+        font-size: 12px;
+    }
+
+    .content img{
+        margin-left: 20px;
+    }
+
+    .nav1{
+        padding: 0;
+    }
+
+    .left{
+        margin-right: 0;
+    }
+
+} 
+
+@media only screen and (max-device-width:769px){
     .nav1{
         display: none;
     }

@@ -4,10 +4,6 @@ const displayResults = () => {
   const resultsContainer = document.getElementById("resultsContainer");
   resultsContainer.innerHTML = "";
 
-  const heading = document.createElement("h1");
-  heading.innerHTML = "2023 RACE RESULTS";
-  resultsContainer.append(heading);
-
   const table = document.createElement("table");
   table.classList.add("resultsTable");
 
@@ -15,12 +11,12 @@ const displayResults = () => {
   const tableHeader = document.createElement("thead");
   tableHeader.innerHTML = `
     <tr>
-      <th>Grand Prix</th>
-      <th>Date</th>
-      <th>Winner</th>
-      <th>Car</th>
-      <th>Laps</th>
-      <th>Time</th>
+      <th class="resultName">Grand Prix</th>
+      <th class="resultDate">Date</th>
+      <th class="resultWinner">Winner</th>
+      <th class="resultCar">Car</th>
+      <th class="resultLaps">Laps</th>
+      <th class="resultTime">Time</th>
     </tr>
   `;
   table.appendChild(tableHeader);
@@ -56,7 +52,6 @@ const year = new Date();
 
 for (var i = year.getFullYear(); i >= 1950; i--) {
   const data = document.createElement("div");
-  // const data = document.createElement("a");
   data.classList.add("yearData");
   data.innerHTML = `${i}`;
   dateCol.appendChild(data);
@@ -64,23 +59,57 @@ for (var i = year.getFullYear(); i >= 1950; i--) {
 
 let currentIndex = 0;
 
-// if (currentIndex == 0) {
-//   upButton.classList.add("");
-// }
-
-upButton.addEventListener("click", () => {
+upButton.addEventListener("click", (event) => {
+  event.preventDefault();
   currentIndex = Math.max(currentIndex - 3, 0);
   dateCol.children[currentIndex].scrollIntoView({
     behavior: "smooth",
-    block: "start",
+    block: "nearest",
   });
 });
 
-downButton.addEventListener("click", () => {
+downButton.addEventListener("click", (event) => {
+  event.preventDefault();
   currentIndex = Math.min(currentIndex + 3, dateCol.children.length - 1);
-  console.log(currentIndex);
   dateCol.children[currentIndex].scrollIntoView({
     behavior: "smooth",
-    block: "start",
+    block: "nearest",
+  });
+});
+
+// select Tab for the years
+const selectYr = document.getElementById("yearsSelect");
+for (var i = year.getFullYear(); i >= 1950; i--) {
+  const data = document.createElement("option");
+  // const data = document.createElement("a");
+  data.classList.add("selectYearData");
+  data.innerHTML = `${i}`;
+  selectYr.appendChild(data);
+}
+// year scroller col end
+
+const country = document.getElementById("f1CountryContent");
+const countryUp = document.getElementById("upButtonCountry");
+const countryDown = document.getElementById("downButtonCountry");
+
+let coutryIdx = 0;
+
+countryUp.addEventListener("click", (event) => {
+  event.preventDefault();
+  coutryIdx = Math.max(coutryIdx - 4, 0);
+  console.log(country.children[coutryIdx]);
+  country.children[coutryIdx].scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
+  });
+});
+
+countryDown.addEventListener("click", (event) => {
+  event.preventDefault(); // Prevent the default behavior of the button
+  coutryIdx = Math.min(coutryIdx + 4, country.children.length - 1);
+  console.log(country.children[coutryIdx]);
+  country.children[coutryIdx].scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
   });
 });

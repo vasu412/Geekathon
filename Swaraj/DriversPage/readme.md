@@ -48,6 +48,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Contact
 For any inquiries or feedback, feel free to contact us:
 Your Name - swrjnnd@gmail.com
+
+# Thank you for your interest in my work! 😊
 Project Status
 This project is currently under development and this is UI for the F1 Page. Check back soon for updates!
 

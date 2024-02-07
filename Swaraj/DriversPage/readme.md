@@ -17,6 +17,14 @@ Check out the live demo [here](https://vasu412.github.io/Geekathon/).
 
 ![Homepage Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/1.png)
 
+![Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/2.png)
+
+![Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/3.png)
+
+![Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/tab.png)
+
+![Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/phone.png)
+
 ## Installation
 
 To run this project locally, follow these steps:

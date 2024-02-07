@@ -25,15 +25,15 @@ To run this project locally, follow these steps:
 cd Geekathon/Swaraj/DriversPage
 
 
-##Usage
+##U sage
 - Use the navigation bar at the top of the page to:
 
 - Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-###Contact
+### Contact
 For any inquiries or feedback, feel free to contact us:
 
 Your Name - swrjnnd@gmail.com

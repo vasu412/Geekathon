@@ -52,7 +52,6 @@ const year = new Date();
 
 for (var i = year.getFullYear(); i >= 1950; i--) {
   const data = document.createElement("div");
-  // const data = document.createElement("a");
   data.classList.add("yearData");
   data.innerHTML = `${i}`;
   dateCol.appendChild(data);
@@ -65,16 +64,16 @@ upButton.addEventListener("click", (event) => {
   currentIndex = Math.max(currentIndex - 3, 0);
   dateCol.children[currentIndex].scrollIntoView({
     behavior: "smooth",
-    block: "nearest", // Align to the nearest edge of the scroll container
+    block: "nearest",
   });
 });
 
 downButton.addEventListener("click", (event) => {
-  event.preventDefault(); // Prevent the default behavior of the button
+  event.preventDefault();
   currentIndex = Math.min(currentIndex + 3, dateCol.children.length - 1);
   dateCol.children[currentIndex].scrollIntoView({
     behavior: "smooth",
-    block: "nearest", // Align to the nearest edge of the scroll container
+    block: "nearest",
   });
 });
 

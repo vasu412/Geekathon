@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
 cd Geekathon/Swaraj/DriversPage
 
 
-##U sage
+## Usage
 - Use the navigation bar at the top of the page to:
 
 - Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -35,10 +35,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Contact
 For any inquiries or feedback, feel free to contact us:
-
 Your Name - swrjnnd@gmail.com
 Project Status
-This project is currently under development. Check back soon for updates!
+This project is currently under development and this is UI for the F1 Page. Check back soon for updates!
 
 Acknowledgments
 Formula 1 for providing the data used in this project

@@ -15,11 +15,11 @@ Check out the live demo [here](https://vasu412.github.io/Geekathon/).
 
 ## Screenshots
 
-![Homepage Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/1.png)
+![Homepage Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/ResultPage/ScreenShots/1.png)
 
-![Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/2.png)
+![Homepage Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/ResultPage/ScreenShots/2.png)
 
-![Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/DriversPage/ScreenShots/3.png)
+![Homepage Screenshot](https://github.com/vasu412/Geekathon/blob/main/Swaraj/ResultPage/ScreenShots/3.png)
 
 
 ## Installation

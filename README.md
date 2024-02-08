@@ -118,27 +118,27 @@ Throughout the development of our project, our team encountered various challeng
 
 ## :airplane:<span style="color:#29c4f6">WEBSITE UI 
  #### 1. HOME PAGE UI
- ![Screenshot 1](./images/Screenshot 2024-02-08 at 10.13.06 AM.png)
+ ![Screenshot 1](/images/s1.png)
 ##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 #### 2. NAVBAR
- ![Screenshot 2](./images/Screenshot 2024-02-08 at 10.13.57 AM.png)
+ ![Screenshot 2](./images/s2.png)
  ##### UI Description:<i> "A navigation menu is implemented to allow users to easily navigate between different sections of the website."</i>
 
  #### 3. EDITOR'S PICKS
- ![Screenshot 3](./images/Screenshot 2024-02-08 at 10.14.56 AM.png)
+ ![Screenshot 3](./images/s3.png)
  ##### UI Description:<i> "One of the notable features of the Formula 1 Website Clone is the "Editor Picks" section, which showcases curated content selected by our team. This section emulates the functionality and presentation of the Editor Picks section found on the official Formula 1 website."</i>
 
  #### 4. RACE CALENDER
- ![Screenshot 4](./images/Screenshot 2024-02-08 at 10.18.11 AM.png)
+ ![Screenshot 4](./images/s4.png)
  ##### UI Description:<i> "The section is designed to help users to easily find out about the dates and time of the upcoming races."</i>
 
  #### 5. MORE NEWS
- ![Screenshot 5](./images/Screenshot 2024-02-08 at 10.19.20 AM.png)
+ ![Screenshot 5](./images/s5.png)
  ##### UI Description:<i> "The "More News" section serves as a gateway to additional news articles and updates beyond the featured content displayed on the homepage. "</i>
 
  #### 6. DRIVER STANDINGS
- ![Screenshot 6](./images/Screenshot 2024-02-08 at 10.21.35 AM.png)
+ ![Screenshot 6](./images/s6.png)
  ##### UI Description:<i> "The "Driver Standings" section presents the current standings of Formula 1 drivers in the ongoing championship season"</i>
 
  #### 7. NAVBAR PAGES
@@ -327,7 +327,7 @@ In conclusion, the Formula 1 Website Clone project offers a valuable learning ex
 </ul>
 <ul> As developers progress through this project, they not only enhance their technical skills but also cultivate a deeper understanding of the intricacies involved in crafting compelling and user-friendly web experiences. Whether used for personal skill development, portfolio enhancement, or educational purposes, the Formula 1 Website Clone project offers a rewarding journey into the world of web development.
 
-So, let's embark on this journey together, embracing challenges, honing skills, and celebrating the achievements along the way. Happy coding!</ul>
+So, let's embark on this journey together, embracing challenges, honing skills, and celebrating the achievements along the way. Happy coding!
 
 
 

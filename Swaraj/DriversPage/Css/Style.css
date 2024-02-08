@@ -165,7 +165,6 @@
 
 .driverName{
     font-family: 'f1';
-    /* font-weight: 100; */
     font-size: 13px;
 }
 
@@ -254,13 +253,13 @@
 
 @media screen and (max-width: 1360px) {
     .driverCard{
-        width: 33%;
+        width: 31%;
     }
   }
 
 @media screen and (max-width: 1020px) {
     .driverCard{
-        width: 45%;
+        width: 48%;
     }
   }
 
@@ -269,11 +268,17 @@
         width: 100%;
     }
 
-    h1{
+    .driverHeading{
         font-size: 2.5rem;
     }
 
     .texts p{
         max-width: none;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .driverHeading{
+        font-size: 1.8rem;
     }
   }

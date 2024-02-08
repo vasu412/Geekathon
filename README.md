@@ -177,6 +177,10 @@ Throughout the development of our project, our team encountered various challeng
 ![Screenshot 15](./images/s15.png)
 ##### <i> This page serves as a central hub for users to stay informed about the latest events, announcements, and insights within the Formula 1 community.</i>
 
+#### 15. LATEST 
+![Screenshot 16](./images/s16.png)
+##### <i> This section provides a variety of gaming options, from browser-based mini-games to interactive simulations, allowing users to engage with the sport in a fun and interactive way.</i>
+
 ## LEARNINGS
 ### 1. Understanding User Requirements
 - Clearly defined user requirements at the beginning led to a more focused development process.

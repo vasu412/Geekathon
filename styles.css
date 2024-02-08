@@ -1914,10 +1914,6 @@ footer {
 
 @media only screen and (max-device-width:1024px){
 
-    *{
-        /* overflow: hidden; */
-    }
-
     footer{
         height: 115vh;
     }

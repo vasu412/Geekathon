@@ -170,8 +170,12 @@ Throughout the development of our project, our team encountered various challeng
 ##### <i>This page provides users with comprehensive and up-to-date information on race results, qualifying sessions, and championship standings.</i>
 
 #### 14. DRIVERS 
-![Screenshot 20](./images/s14.png)
+![Screenshot 14](./images/s14.png)
 ##### <i>This page offers insights into each driver's career statistics, biographical details, and achievements, providing fans with a deeper understanding of their favorite drivers.</i>
+
+#### 15. LATEST 
+![Screenshot 15](./images/s15.png)
+##### <i> This page serves as a central hub for users to stay informed about the latest events, announcements, and insights within the Formula 1 community.</i>
 
 ## LEARNINGS
 ### 1. Understanding User Requirements

@@ -141,154 +141,37 @@ Throughout the development of our project, our team encountered various challeng
  ![Screenshot 6](./images/s6.png)
  ##### UI Description:<i> "The "Driver Standings" section presents the current standings of Formula 1 drivers in the ongoing championship season"</i>
 
- #### 7. NAVBAR PAGES
- ![Screenshot 7](./screenshots_ui/Screenshot7.png)
- ##### UI Description:<i> "The Navbar pages  is designed help users to easily navigate to the pages related to particular activity products. "</i>
-
- #### 8. WHAT'S HOT LINKED PAGES
- ![Screenshot 8](./screenshots_ui/Screenshot8.png)
- ##### UI Description:<i> "The whats hot is designed to help users to easily navigate to the pages linked to them."</i>
-
- #### 9. FOOTER
- ![Screenshot 9](./screenshots_ui/Screenshot9.png)
- ##### UI Description:<i> "The Footer section is designed help users to easily navigate throught the pages linked to each section . The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
-
- #### 10. POPULAR LINKED 
- ![Screenshot 10](./screenshots_ui/Screenshot10.png)
+ #### 7. SHOPS AND EXPLORE
+ ![Screenshot 7](./images/s7.png)
  ##### UI Description:<i> "The popular linked section is designed to help users to easily navigate to the pages linked to it and checkout collection."</i>
 
- #### 11. HELP
- ![Screenshot 11](./screenshots_ui/Screenshot11.png)
- ##### UI Description:<i> "The Help page is designed to help users to connect with adiclub and communicate with them."</i>
+ #### 8. FOOTER
+ ![Screenshot 8](./images/s8.png)
+ ##### UI Description:<i> "The Footer section is designed help users to easily navigate throught the pages linked to each section . The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
- #### 12. SIGNUP
- ![Screenshot 12](./screenshots_ui/Screenshot12.png)
- ##### UI Description:<i> "The signup is designed help users to get signed in with the adidas website and they will be notified whenever any deals are then."</i>
+ #### 9. RESPONSIVE HOMEPAGE
+ ![Screenshot 19](./images/s9.png)
+ ##### UI Description:<i> "Ensuring responsiveness on the homepage is paramount to delivering a seamless user experience across various devices and screen sizes"</i>
 
- #### 13. RESPONSIVE HOMEPAGE
- ![Screenshot 13](./screenshots_ui/Screenshot13.png)
- ##### UI Description:<i> "This page hides the content in the navbar and display it as a menu bar."</i>
-
- #### 14. MENU BAR
- ![Screenshot 14](./screenshots_ui/Screenshot14.png)
- ##### UI Description:<i> "This section contains the content of the navbar and will be displayed in smaller screens."</i>
-
- #### 15.  RESPONSIVE FOOTER
- ![Screenshot 15](./screenshots_ui/Screenshot15.png)
+ #### 10.  RESPONSIVE FOOTER
+ ![Screenshot 10](./images/s10.png)
  ##### UI Description:<i> "This section in the footer will be displayed in smaller screens and they will be hidden in larger screens."</i>
 
-#### 16. BACKPACK
-![Screenshot 16](./screenshots_ui/Screenshot16.png)
-##### <i>Backpack page ui contains the collection of alluring backpacks with their brand name and the price of each bag and  footer part which is responsive for all types of screens.</i>
+#### 11. VIDEO
+![Screenshot 11](./images/s11.png))
+##### <i>The Video Page is dedicated to showcasing a collection of Formula 1-related videos, providing users with an immersive multimedia experience</i>
 
-#### 17. MEN
-![Screenshot 17](./screenshots_ui/Screenshot17.png)
-##### <i>Men page ui contains home page for men and when we click shop button on it will navigate to te pages related to men products.</i>
+#### 12. F1 UNLOCKED
+![Screenshot 12](./images/s12.png)
+##### <i>The Video Page showcase a collection of Formula 1-related videos, providing users with an immersive multimedia experience.</i>
 
-#### 18. WISLIST
-![Screenshot 18](./screenshots_ui/Screenshot18.png)
-##### <i>Wishlist page contains the images and details of the products which are liked by the users</i>
+#### 13. RESULTS
+![Screenshot 13](./images/s13.png)
+##### <i>This page provides users with comprehensive and up-to-date information on race results, qualifying sessions, and championship standings.</i>
 
-#### 19. OUTLIST
-![Screenshot 19](./screenshots_ui/Screenshot19.jpeg)
-##### <i>Outlet page contains all the deals related to the products</i>
-#### 20. Kids page
-##### <i>Kids page ui was designed with the products related to kids and users can navigate to different products which are available for kids in the website.</i>
-![Screenshot 20](./screenshots_ui/Screenshot20.png)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages. It is a fixed navbar.
-### 2. Body page
-The body page of this contains the contents related to the products of kids. 
-### 3. Button
-The purpose of the button on the page is to navigate to the pages related to shop for kids. 
-#### 21. Samba page
-![Screenshot 21](screenshots_ui/Screenshot21.png)
-##### <i>Samba page ui contains the content related to the products of that particular Samba brand.</i>
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains the images of products of the Samba brand with their prices and description of each image. 
-
-#### 22. Login page
-##### <i>Login page is for user authentication to enter a specific website which trespassers cannot see. </i>
-![Screenshot 22](screenshots_ui/Screenshot22.png)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains fields for the Email and some other browsers link from which you can login with your google accounts.
-
-#### 22. ADIDAS SPEZIAL
-##### <i>Explore a diverse range of footwear, apparel, and accessories that seamlessly blend form and function. Imbued with the spirit of casual sportiness, the Adidas Spezial collection is perfect for those who appreciate the art of simplicity and the power of understated elegance.</i>
-![Screenshot 23](./screenshots_ui/Screenshot23.png)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages. It is a fixed navbar.
-### 2. Body page
-The body page of this contains the contents related to the products of Adidas spezial. 
-#### 24. ADIDAS X BCCI 
-![Screenshot 24](./screenshots_ui/Screenshot24.png)
-##### <i>Adidas X Bcci pages contains the products related to the Cricket like Jerseys and more</i>
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains the images of products related to cricket with their prices and description of each image. 
-
-#### 25. BAGS PAGE
-##### <i>Bags page is an enormous collection of beautiful bags of adidas brand  </i>
-![Screenshot 25](./screenshots_ui/Screenshot25.png)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains the different collection of bags and their decription with prices. 
-#### 26. NMD S1 MAHBS
-##### <i>This page contains all the products of NMD S1 MAHBS </i>
-![Screenshot 26](./screenshots_ui/Screenshot26.jpeg)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains the products of NMD S1 MABS that have offers on each product.
-#### 27. STELLA MC CARTNEY PAGE
-##### <i>Stella mc cartney page contains all the deals related to the products and their description</i>
-![Screenshot 27](./screenshots_ui/Screenshot27.jpeg)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains the products  related to Stella mc cartney brands.
-
-#### 28. SUPERNOVA 
-##### <i>Supernova page contains all the deals related to the products of supernova brand</i>
-![Screenshot 28](./screenshots_ui/Screenshot28.jpeg)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains the products that are related to Supernova brand product.
-
-#### 29. WOMEN PAGE
-##### <i>Women page contains all the products for women</i>
-![Screenshot 29](./screenshots_ui/Screenshot29.jpeg)
-## Components
-
-### 1. Navigation Bar
-Navigation Bar includes the components related to all the webpages.
-### 2. Body page
-The body page of this contains the products that are related to women.
+#### 14. DRIVERS 
+![Screenshot 20](./images/s14.png)
+##### <i>This page offers insights into each driver's career statistics, biographical details, and achievements, providing fans with a deeper understanding of their favorite drivers.</i>
 
 ## LEARNINGS
 ### 1. Understanding User Requirements

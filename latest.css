@@ -743,6 +743,94 @@ header{
     padding-top: 22px;
 }
 
+.news_section2{
+    display: flex;
+    margin-left: 70px;
+    padding-top: 30px;
+    width: 90%;
+    margin-right: 0;
+}
+
+.container{
+    /* width: 615px; */
+    border-top: 1px solid rgba(128, 128, 128, 0.400);
+    border-right: 1px solid rgba(128, 128, 128, 0.400);
+    border-top-right-radius: 20px;
+    margin-right: 20px;
+}
+
+.container h1{
+    margin-left: 0;
+    margin-bottom: 30px;
+    padding-top: 7px;
+}
+
+.news_section2 .news_div{
+    border: none;
+    padding: 0;
+}
+
+.news_section2 .news_div a{
+    padding-right: 20px;
+}
+
+.technical{
+    height: 90vh;
+    width: 100%;
+    background-color: #15151e;
+    padding: 30px 0px;
+    color: white;
+    display: flex;
+}
+
+.technical .material-icons{
+    color: #e10600;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+.technical .calendar2_fieldset{
+    border-color: #38383f;
+    width: 55%;
+    padding-bottom: 20px;
+    height: 580px;
+}
+
+.technical .calender2 h5 ,.technical .calender2 p{
+    color: #fff;
+}
+
+.technical .calendar2_right{
+    width: 300px;
+}
+
+.technical .info div{
+    height: 120px;
+}
+
+.technical_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 580px;
+    margin-left: 20px;
+}
+
+.technical_section  h5 ,.technical_section p{
+    color: #fff;
+}
+
+.lines{
+    height: 20px;
+    background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/white-x2.png);
+    background-repeat: repeat;
+    background-size: 8px;
+    width: 300px;
+    margin-top: 20px;
+}
+
 
 
 

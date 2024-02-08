@@ -11,6 +11,18 @@ body{
     background: #f3f3f3;
     background-size: 100% auto;
 }
+@font-face {
+    font-family: 'f1';
+    src: url(./fonts/Formula1-Regular_web_0.ttf);
+}
+@font-face {
+    font-family: 'f2';
+    src: url(./fonts/Formula1-Bold_web_0.ttf);
+}
+@font-face {
+    font-family: 'f3';
+    src: url(./fonts/Formula1-Wide_web_0.ttf);
+}
 .section{
     height: 90vh;
     width: 100vw;
@@ -34,7 +46,7 @@ body{
 #f1-unlockimage h1 {
     font-size: 62px;
     line-height: 62px;
-    font-family: F1Bold;
+    font-family: "Titillium Web";
     text-transform: uppercase;
     
 }
@@ -51,22 +63,39 @@ body{
 }
 #watchnow-div{
     margin-top: 4%;
+    width: auto;
     
 }
-.watchnow-div:hover{
+.watchnow-btn:hover{
     border-radius: 10px;
     color: #d0d0d2;
-    border: ;
+    box-shadow: 0 0 0 3px #d0d0d2;
+    background: 0 0;
+    border-radius: 5px;
+    padding: 12px 35px 12px 15px;
+   
 }
 #btn:hover{
     background-color: #e10600;
     color: white;
     transition: 0.5s;
+    
 }
 .f1-image-content span{
    color: white;
    /* position: absolute; */
    margin-right:100px ;
+}
+.f1-image-content h6{
+    font-size:large;
+    font-family: "Titillium Web";
+
+}
+.f1-image-content h1{
+    font-size: 60px;
+    /* font-size: xx-large; */
+    line-height: 48px;
+    font-weight: 720;
 }
 
 .sub-section2{  
@@ -95,11 +124,10 @@ body{
 }
 .content-container  h1{
     color: black;
-    font-size: 42px;
+    font-size: 60px;
+    /* font-size: xx-large; */
     line-height: 48px;
-   
-    font-family: F1Black;
-    font-weight: 1000000;
+    font-weight: 900;
   
 }
 

@@ -1709,6 +1709,8 @@ footer {
 
 @media only screen and (min-device-width:1025px) and (max-device-width:1360px){
 
+    
+
     nav{
         display: flex;
         justify-content: center;
@@ -1911,8 +1913,9 @@ footer {
 }
 
 @media only screen and (max-device-width:1024px){
+
     footer{
-        height: 77vh;
+        height: 115vh;
     }
 
     .shop{

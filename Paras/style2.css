@@ -3,6 +3,24 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'f1';
+    src: url(/fonts/Formula1-Regular_web_0.ttf);
+}
+@font-face {
+    font-family: 'f2';
+    src: url(/fonts/Formula1-Bold_web_0.ttf);
+}
+@font-face {
+    font-family: 'f3';
+    src: url(/fonts/Formula1-Wide_web_0.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: "Titillium Web";
     font-size: 17px;
@@ -796,7 +814,7 @@ header{
 }  
 .content-container{
     width: 100.1%;
-    height: auto%;
+    height: auto;
     min-height: 28%;
     background-color: white;
     border-bottom-left-radius: 1rem;
@@ -804,7 +822,7 @@ header{
 }
 .content-container-1{
     width: 100.1%;
-    height: auto%;
+    height: auto;
     min-height: 22%;
     background-color: rgb(13, 13, 28);
     border-bottom-right-radius: 1rem;
@@ -952,7 +970,7 @@ header{
 
 footer {
     background-color: #15151e;
-    height: 165vh;
+    height: 120vh;
     overflow: hidden;
     margin-top: -15%;
 }

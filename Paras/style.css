@@ -3,6 +3,20 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'f1';
+    src: url(/fonts/Formula1-Regular_web_0.ttf);
+}
+@font-face {
+    font-family: 'f2';
+    src: url(/fonts/Formula1-Bold_web_0.ttf);
+}
+@font-face {
+    font-family: 'f3';
+    src: url(/fonts/Formula1-Wide_web_0.ttf);
+}
+
 body{
     font-family: "Titillium Web";
     font-size: 17px;
@@ -10,6 +24,10 @@ body{
     letter-spacing: .2px;   
     background: #f3f3f3;
     background-size: 100% auto;
+}
+
+a{
+    text-decoration: none;
 }
          /* header */
 
@@ -640,10 +658,11 @@ body{
 
     padding: 12px 35px 12px 15px;
 }
+
 #bg-picture{
     background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
     width: 95%;
-    height: %;
+    /* height: %; */
     min-height: 150px;
     background-repeat:repeat;
     background-size: 9px;
@@ -807,7 +826,7 @@ margin-top: 1em;
 }
 footer {
     background-color: #15151e;
-    height: 165vh;
+    height: 120vh;
     overflow: hidden;
 }
 

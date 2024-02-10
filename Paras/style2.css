@@ -657,12 +657,12 @@ header{
         overflow: hidden;
         
     }
-    .image-container video{
+    /* .image-container video{ */
         /* transform: scale(1.1); */
         /* transition: 0.6s; */
         /* height: 73%; */
         /* margin-top: 2%; */
-    } 
+    /* }  */
 }
 .feature-1:hover,
 .right2:hover,
@@ -693,12 +693,12 @@ header{
         overflow: hidden;
         
     }
-    .image-container video{
+    /* .image-container video{ */
         /* transform: scale(1.1); */
         /* transition: 0.6s; */
         /* height: 73%; */
         /* margin-top: 2%; */
-    }
+    /* } */
 }
 .feature{
     width: 27%;

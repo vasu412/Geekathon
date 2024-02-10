@@ -13,8 +13,13 @@
     src: url(../fonts/Formula1-Bold_web_0.ttf);
 }
 @font-face {
+<<<<<<< HEAD
     font-family: 'f3';
     src: url(../fonts/Formula1-Wide_web_0.ttf);
+=======
+    font-family: 'f3';  
+    src: url(/fonts/Formula1-Wide_web_0.ttf);
+>>>>>>> eab7b0f6d5442ba89b09ca141d422d8eb4c54839
 }
 
 body{

@@ -6,15 +6,15 @@
 
 @font-face {
     font-family: 'f1';
-    src: url(/fonts/Formula1-Regular_web_0.ttf);
+    src: url(../fonts/Formula1-Regular_web_0.ttf);
 }
 @font-face {
     font-family: 'f2';
-    src: url(/fonts/Formula1-Bold_web_0.ttf);
+    src: url(../fonts/Formula1-Bold_web_0.ttf);
 }
 @font-face {
     font-family: 'f3';
-    src: url(/fonts/Formula1-Wide_web_0.ttf);
+    src: url(../fonts/Formula1-Wide_web_0.ttf);
 }
 
 a{

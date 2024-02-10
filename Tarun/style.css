@@ -1,0 +1,1064 @@
+
+*{
+     margin: 20px 50px 5px 50px;
+     
+ }
+ @font-face {
+     font-family: 'f1';
+     src: url(./fonts/Formula1-Regular_web_0.ttf);
+ }
+ @font-face {
+     font-family: 'f2';
+     src: url(./fonts/Formula1-Bold_web_0.ttf);
+ }
+ @font-face {
+     font-family: 'f3';
+     src: url(./fonts/Formula1-Wide_web_0.ttf);
+ }
+ 
+ .main_left{
+     height: 20vh;
+     width: 95%;
+     border-right: 12px solid #111;
+     border-top: 12px solid #111;
+     border-top-right-radius: 25px;
+     /* position: ; */
+     top: 50px;
+     /* background-image: url(https://www.creativecenter.brother/-/media/creativecenter/contents/home/home/home-category/learning-activities/organization-tools/graph-paper-5mm/graph-paper-5mm-learning-activities-l-en.ashx); */
+ }
+ 
+.main_left h1{
+     color: rgb(13, 8, 8);
+     font-weight: 600;
+     font-size: 80px;
+     margin-bottom: 4px;
+     margin-top: 17px;
+     color: rgb(11, 8, 8);
+     font-size: 50px;
+     font-family: 'Courier New', Courier, monospace;
+}
+ 
+ .page{
+     /* border:2px black solid; */
+     width: 83vw;
+     height: 120px;
+     padding: 25px;
+     box-sizing: border-box;
+     background-color: rgb(96, 91, 91);
+     font-size: xx-small;
+     position: absolute;
+     top:22em;
+     left: 8%;
+     font-style: normal;
+}
+.side{
+     height: 55vh;
+     width: 41%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: 60%;
+
+ }
+.image-container {
+     width: 5px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .image-container img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: 10em;
+     top: 1px;
+     margin-right: 10px;
+}
+.image-container2 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 20em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container2 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     right: 5.8em;
+     top: -0.9em;
+}
+.icon_container {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     left: 28em;
+   
+}
+.icon_container img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: 2%;
+     right: -19em;
+}
+.right_bottom_2{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -5px;
+     right:5em;
+}
+.p1{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+     top: 2px;
+
+}
+.p2{
+     width: 1px;
+     position: absolute;
+     right: 0.7em;
+     top: 4px;
+}
+.word_01{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+
+
+.side1{
+     height: 55vh;
+     width: 41%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: 60%;
+     right: 5px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+.image-container1 {
+     width: 55px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .image-container1 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: -11em;
+     top: 0;
+     margin-right: 10px;
+}
+.image-container21 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 30em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container21 img {
+     width: 40px; 
+     height: auto;
+     position: absolute;
+     left: -5.8em;
+     top: -0.7em;
+}
+.pic{
+     width: 49px;
+     position: absolute;
+     right: -30px;
+     top:80px;
+
+}
+.icon_container1 {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     left: 28em;
+   
+}
+.icon_container1 img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car1{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car1 img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top1{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom1{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -1px;
+     left: -24em;
+}
+.right_bottom_21{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: 5em;
+     right: -40px;
+}
+.p11{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+
+}
+.p21{
+     width: 1px;
+     position: absolute;
+     left: -19em;
+     top: -8px;
+}
+.word_011{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+
+
+.side2{
+     height: 55vh;
+     width: 100%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: 110%;
+     right: -3em;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+.image-container2 {
+     width: 55px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     /* display: flex;
+     justify-content: space-between;
+     align-items: center; */
+}
+ .image-container2 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: -11em;
+     top: 0;
+     margin-right: 10px;
+}
+.image-container22 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 30em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container22 img {
+     width: 40px; 
+     height: auto;
+     position: absolute;
+     left: -5.8em;
+     top: -0.7em;
+}
+.pic2{
+     width: 49px;
+     position: absolute;
+     right: -30px;
+     top:80px;
+
+}
+.icon_container2 {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     right: -8em;
+   
+}
+.icon_container2 img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car2{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car2 img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top2{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom12{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -1px;
+     right: 5em;
+}
+.right_bottom_22{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: 5em;
+     right: -40px;
+}
+.p12{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+     top: 5px;
+
+}
+.p22{
+     width: 1px;
+     position: absolute;
+     right: 9em;
+     top: -8px;
+}
+.word_012{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+
+.side3{
+     height: 55vh;
+     width: 100%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: 100%;
+     left: -50px;
+
+ }
+.image-container3 {
+     width: 5px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .image-container3 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: 7em;
+     top: 1px;
+     margin-right: 10px;
+}
+.image-container23 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 20em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container23 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     right: 5.8em;
+     top: -0.9em;
+}
+.icon_container3 {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     left: 28em;
+   
+}
+.icon_container3 img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car3{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car3 img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top3{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom3{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -1px;
+     right: 3.5em;
+}
+.right_bottom_3{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -10px;
+     right: -17em;
+}
+.p13{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+     top: 2px;
+
+}
+.p23{
+     width: 1px;
+     position: absolute;
+     right: 0.7em;
+     top: 4px;
+}
+.word_013{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+
+.side4{
+     height: 55vh;
+     width: 100%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: -6%;
+     left: -724px;
+   
+
+ }
+.image-container4 {
+     width: 5px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .image-container4 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: 10em;
+     top: 1px;
+     margin-right: 10px;
+}
+.image-container24 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 20em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container24 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     right: 5.8em;
+     top: -0.9em;
+}
+.icon_container4 {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     left: 28em;
+   
+}
+.icon_container4 img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car4{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car4 img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top4{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom4{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: 2%;
+     right: -19em;
+}
+.right_bottom_4{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -5px;
+     right:5em;
+}
+.p14{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+     top: 2px;
+
+}
+.p24{
+     width: 1px;
+     position: absolute;
+     right: 0.7em;
+     top: 4px;
+}
+.word_014{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+
+.side5{
+     height: 55vh;
+     width: 100%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: 23em;
+     left: -724px;
+   
+
+ }
+.image-container5{
+     width: 5px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .image-container5 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: 10em;
+     top: 1px;
+     margin-right: 10px;
+}
+.image-container25 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 20em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container25 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     right: 5.8em;
+     top: -0.9em;
+}
+.icon_container5 {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     left: 28em;
+   
+}
+.icon_container5 img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car5{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car5 img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top5{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom5{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: 2%;
+     right: -19em;
+}
+.right_bottom_5{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -5px;
+     right:5em;
+}
+.p15{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+     top: 2px;
+
+}
+.p25{
+     width: 1px;
+     position: absolute;
+     right: 0.7em;
+     top: 4px;
+}
+.word_015{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+
+.side6{
+     height: 55vh;
+     width: 100%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: 50em;
+     right:-3em;
+   
+
+ }
+.image-container6 {
+     width: 5px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .image-container6 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: 10em;
+     top: 1px;
+     margin-right: 10px;
+}
+.image-container26 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 20em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container26 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     right: 5.8em;
+     top: -0.9em;
+}
+.icon_container6 {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     left: 28em;
+   
+}
+.icon_container6 img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car6{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car6 img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top6{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom6{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: 2%;
+     right: -19em;
+}
+.right_bottom_6{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -5px;
+     right:5em;
+}
+.p16{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+     top: 2px;
+
+}
+.p26{
+     width: 1px;
+     position: absolute;
+     right: 0.7em;
+     top: 4px;
+}
+.word_016{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+
+
+.side7{
+     height: 55vh;
+     width: 100%;
+     border-right: 3px solid #494545;
+     border-top: 3px solid #494545;
+     border-top-right-radius: 23px;
+     position: absolute;
+     top: 50em;
+     left: -724px;
+   
+
+ }
+.image-container7{
+     width: 5px;
+     height: auto;
+     position: absolute;
+     top: 60px;
+     left: 18em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .image-container7 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     left: 10em;
+     top: 1px;
+     margin-right: 10px;
+}
+.image-container27 {
+     width: 10px;
+     height: auto;
+     position: absolute;
+     top: 70px;
+     left: 20em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}     
+.image-container27 img {
+     width: 49px; 
+     height: auto;
+     position: absolute;
+     right: 5.8em;
+     top: -0.9em;
+}
+.icon_container7 {
+     width: 30%;
+     height: auto;
+     position: absolute;
+     top: -30px;
+     left: 28em;
+   
+}
+.icon_container7 img{
+     width: 50px; 
+     height: auto;
+     
+}
+.car7{
+          width: 100vw;
+          height: auto;
+          position: absolute;
+          top: 20vh;
+          left: -18%;
+}
+.car7 img{
+          width: 15vw; 
+          height: auto;
+          background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x2.png);
+           background-repeat: repeat repeat;
+           background-size: 8px;
+           width: 39.5%;
+           height: 10%;
+}
+.half-a-border-on-top7{
+     border-bottom: 2px solid black;
+     position: absolute;
+     top: 42px;
+     left: -50px;
+     width: 98%;
+}
+.right_bottom7{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: 2%;
+     right: -19em;
+}
+.right_bottom_7{
+     height: 8vh;
+     width: 16.5em;
+     border-right: 1.5px solid #494545;
+     border-bottom: 1.5px solid #494545;
+     border-bottom-right-radius: 13px;
+     position: absolute;
+     top: -5px;
+     right:5em;
+}
+.p17{
+     width: 5px;
+     position: absolute;
+     left: -23em;
+     top: 2px;
+
+}
+.p27{
+     width: 1px;
+     position: absolute;
+     right: 0.7em;
+     top: 4px;
+}
+.word_017{
+     width: 5px;
+     position: absolute;
+     left: -2.5em;
+     top: 8px;
+
+}
+.side7:hover {
+     background-color: yellow;
+   }

@@ -2,15 +2,32 @@
   --alternetColor: #f4f4f4;
 }
 
+body {
+  background-color: #f7f4f1;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.section1 {
+  background-color: white;
+  margin: 2.5rem 2.5rem 0 2.5rem;
+  padding: 1rem;
+  font-family: "f1";
+}
+
+.section2 {
+  background-color: white;
+  margin: 3px 2.5rem 2.5rem 2.5rem;
+  padding: 1rem;
+}
+
 #resultsContainer {
-  font-family: Arial, sans-serif;
-  /* padding: 50px; */
+  font-family: "Titillium Web", sans-serif;
+  word-spacing: 3px;
 }
 
 tbody,
@@ -19,11 +36,15 @@ thead {
   text-align: left;
 }
 
-h1 {
-
-  background-color: green;
+.resultsTable {
+  font-size: 2.8rem;
+  padding: 20px 0 4rem 0;
 }
 
+.resultHeading {
+  font-family: "f1";
+  font-weight: 100;
+}
 
 tbody tr:nth-child(odd) {
   background-color: var(--alternetColor);
@@ -32,21 +53,22 @@ tbody tr:nth-child(odd) {
 .resultsTable {
   width: 100%;
   border-collapse: collapse;
-  /* border: 2px solid green; */
 }
 
 thead>tr>th {
   padding: 18px 20px 14px;
   text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
   font-size: 11px;
-  font-weight: 100;
+  color: #808090;
+  font-weight: 400;
   align-items: center;
 }
 
 tbody>tr>td {
   padding: 18px 20px 14px;
   letter-spacing: 1;
-  font-size: 12px;
+  font-size: 11px;
   color: #171717;
   line-height: 2;
 }
@@ -59,54 +81,49 @@ tbody>tr>td {
   cursor: pointer;
 }
 
-
 #dateRaceAllCol {
-  /* background-color: yellow; */
-  /* color: orangered; */
   height: 144px;
+  font-size: 14px;
   overflow: scroll;
-  /* overflow-x: hidden; */
   width: 100%;
-  /* font-size: 50px; */
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
-  padding: 18px;
 }
-
 
 #dateRaceAllCol::-webkit-scrollbar {
   width: 0;
 }
 
-
-.yearcol , .races, .f1Country{
+.yearcol,
+.races,
+.f1Country {
+  overflow: hidden;
+  padding: 18px;
   height: 144px;
   position: relative;
-  border: 2px solid black;
+  margin-bottom: 10px;
   width: 100%;
-  font-size: 1.5rem;
-  /* padding: 20px; */
+  font-size: 14px;
+  line-height: 1.8rem;
+  letter-spacing: 1.5px;
 }
 
-.f1Country{
+.races,
+.f1Country {
+  border-left: 2px solid #f7f4f1;
+}
+
+.f1Country {
   height: 144px;
   overflow: scroll;
-  /* overflow-x: hidden; */
   width: 100%;
-  /* font-size: 50px; */
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
-  /* padding: 10px; */
 }
 
-#f1CountryContent{
-  border: 2px solid rebeccapurple;
+#f1CountryContent {
   display: flex;
   flex-direction: column;
-  /* overflow: hidden; */
-  /* width: 70%; */
 }
 
 .f1Country::-webkit-scrollbar {
@@ -115,31 +132,91 @@ tbody>tr>td {
 
 .scrollerMainDiv {
   display: flex;
-  /* position: relative; */
-  border: 2px solid black;
-  /* background-color: black; */
 }
 
 button {
   position: absolute;
-  border: 2px solid black;
   height: 40px;
-  width: 40px;
+  width: 30px;
   background-color: transparent;
   border: none;
-  /* color: var(--alternetColor); */
   z-index: 1;
-  color: black;
+  color: #b0b0b0;
 }
 
-#upButton, #upButtonCountry{
+#upButton,
+#upButtonCountry {
   top: 10px;
-  right: 15px;
+  right: 35px;
 }
 
-#downButton, #downButtonCountry {
+#downButton,
+#downButtonCountry {
   bottom: 10px;
-  right: 15px;
+  right: 35px;
 }
 
+.selectItems {
+  display: none;
+}
 
+.selectTab {
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #b0b0b0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 20px;
+  border: 2px solid white;
+  border: none;
+}
+
+.selectDivs {
+  position: relative;
+}
+
+#downButton1,
+#downButton2,
+#downButton3 {
+  top: 15px;
+  right: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .resultTime {
+    display: none;
+  }
+
+  .section1 {
+    margin: 0;
+  }
+
+  .section2 {
+    margin: 3px 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+  .resultDate,
+  .resultLaps,
+  .scrollerMainDiv {
+    display: none;
+  }
+
+  .resultsTable {
+    font-size: 2.5rem;
+  }
+
+  .selectItems {
+    display: block;
+  }
+}
